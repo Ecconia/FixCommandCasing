@@ -28,6 +28,7 @@ loom {
 		}
 	}
 
+	accessWidenerPath = file("src/client/resources/fix-command-casing.accesswidener")
 }
 
 dependencies {

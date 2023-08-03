@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "de.ecconia.fabric.fixcommandcasing.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ChatInputMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
