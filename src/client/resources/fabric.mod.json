@@ -8,8 +8,8 @@
 		"Ecconia"
 	],
 	"contact": {
-		"homepage": "https://github.com/Ecconia/EcconiaFixCommandCasing/",
-		"sources": "https://github.com/Ecconia/EcconiaFixCommandCasing/issues"
+		"sources": "https://github.com/Ecconia/EcconiaFixCommandCasing/",
+		"issues": "https://github.com/Ecconia/EcconiaFixCommandCasing/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/fix-command-casing/icon.png",
@@ -20,15 +20,16 @@
 		]
 	},
 	"mixins": [
-		"fix-command-casing.mixins.json"
+		{
+			"config": "fix-command-casing.mixins.json",
+			"environment": "client"
+		}
 	],
 	"accessWidener": "fix-command-casing.accesswidener",
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
 	}
 }
